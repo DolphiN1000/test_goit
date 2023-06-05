@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .list_item {
+    list-style: none;
+    color: black;
+  
+    &:nth-last-child(n + 2) {
+      &::after {
+        // display: block;
+        content: "|";
+        height: 40px;
+        width: 1px;
+        color: black;
+        margin-left: 20px;
+      }
+    }
+  }
+  
+  .link {
+    text-decoration: none;
+    color:indigo ;
+  
+  }
+  
+  .link:global(.active) {
+    color:indianred ;
+  }
