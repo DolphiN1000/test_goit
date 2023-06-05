@@ -1,8 +1,6 @@
 export const getAllUsers = (store) => store.users.items;
 
 export const getFilteredUsers = ({ users, filter }) => {
-  // console.log(store);
-  console.log(users, filter);
   if (!filter) {
     return users.items;
   }
