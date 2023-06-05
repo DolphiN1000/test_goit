@@ -1,10 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import {
-  // fetchAddContact,
-  fetchAllUsers,
-  // fetchDeleteContact,
-} from "./users-operations";
+import { fetchAllUsers, fetchSetFollow } from "./users-operations";
 
 const initialState = {
   items: [],
