@@ -20,12 +20,12 @@ const Tweets = () => {
     
   }, []);
 
-  const likeButton = (id) => {setLike(
-    filterdUsers.map((item) =>
-      item.id === id ? { ...item, liked: !item.liked } : item
-    )
-  );
-};
+//   const likeButton = (id) => {setLike(
+//     filterdUsers.map((item) =>
+//       item.id === id ? { ...item, liked: !item.liked } : item
+//     )
+//   );
+// };
   const elements = filterdUsers.map(
     ({ user, tweets, followers, avatar, id }) => {
       return (

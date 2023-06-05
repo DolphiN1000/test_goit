@@ -9,7 +9,7 @@ const Tweet = ({ user, tweets, followers, avatar, id }) => {
       <img className={styles.avatar} src={avatar} alt={user}></img>
 
       {/* <div className={styles.data}>   */}
-      <p>{tweets.toString().split("").join(",")} &nbsp;TWEETS</p>
+      <p>{tweets} &nbsp;TWEETS</p>
       <p>{followers} &nbsp;FOLLOWERS</p>
       <Button
         id={id}

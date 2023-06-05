@@ -16,10 +16,10 @@ export const getFilteredUsers = ({ users, filter }) => {
   return finded;
 };
 
-export const addLike = (id) => {
-  setLike(
-    users.map((item) =>
-      item.id === id ? { ...item, liked: !item.liked } : item
-    )
-  );
-};
+// export const addLike = (id) => {
+//   setLike(
+//     users.map((item) =>
+//       item.id === id ? { ...item, liked: !item.liked } : item
+//     )
+//   );
+// };
